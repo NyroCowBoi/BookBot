@@ -5,11 +5,11 @@ def count_words(text):
 def count_characters(text):
     text = text.lower()
     characters = {}
-    for word in text:
-        if word not in characters:
-            characters[word] = 1
+    for ch in text:
+        if ch not in characters:
+            characters[ch] = 1
         else:
-            characters[word] += 1
+            characters[ch] += 1
     return characters
 
 def sorted_list(dictionary):
