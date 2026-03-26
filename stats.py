@@ -14,8 +14,8 @@ def count_characters(text):
 
 def sorted_list(dictionary):
     new_list = []
-    for k in dictionary:
-        new_list.append({"char": k, "num": dictionary[k]})
+    for key in dictionary:
+        new_list.append({"char": key, "num": dictionary[key]})
 
     def sort_on(dict):
         return dict["num"]
